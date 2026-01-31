@@ -30,7 +30,7 @@ const Index = () => {
             description={
               <div className="space-y-4">
                 <p>
-                  Twin Heart Meditation with Peace and Illumination is a guided, non-religious practice designed to promote <strong className="text-foreground">emotional balance</strong>, reduce stress, improve interpersonal relationships, enhance mental clarity, and boost finances.
+                  Twin Heart Meditation with Peace and Illumination is a guided, non-religious practice designed to promote <strong className="text-foreground">emotional balance</strong>, <strong className="text-foreground">reduce stress</strong>, <strong className="text-foreground">improve interpersonal relationships</strong>, <strong className="text-foreground">enhance mental clarity</strong>, and <strong className="text-foreground">boost finances</strong>.
                 </p>
                 <p>
                   This meditation is conducted in universities, corporates, and community institutions worldwide due to its simplicity and scientifically observed benefits on relaxation and focus.
