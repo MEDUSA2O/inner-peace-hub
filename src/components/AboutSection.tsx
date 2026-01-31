@@ -24,10 +24,10 @@ const AboutSection = () => {
 
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                The <strong className="text-foreground">Yoga Vidya Pranic Healing Trust of Delhi</strong> is a non-profit organization that has been actively engaged in healing and meditation initiatives over the last 30 years in the Delhi NCR area.
+                The <a href="https://pranichealing-delhi.in/" target="_blank" rel="noopener noreferrer" className="text-foreground font-semibold hover:text-primary transition-colors underline underline-offset-2">Yoga Vidya Pranic Healing Trust of Delhi</a> is a non-profit organization that has been actively engaged in healing and meditation initiatives over the last 30 years in the Delhi NCR area.
               </p>
               <p>
-                Our parent organization is <strong className="text-foreground">World Pranic Healing Foundation of India (WPHFI)</strong>, which is an affiliate of WPHF-Manila with its key entity being Institute for Inner Studies, Inc. (IIS Inc.), Philippines.
+                Our parent organization is <a href="https://www.worldpranichealing.com/" target="_blank" rel="noopener noreferrer" className="text-foreground font-semibold hover:text-primary transition-colors underline underline-offset-2">World Pranic Healing Foundation of India (WPHFI)</a>, which is an affiliate of WPHF-Manila with its key entity being <a href="https://www.instituteforinnerstudies.com.ph/" target="_blank" rel="noopener noreferrer" className="text-foreground font-semibold hover:text-primary transition-colors underline underline-offset-2">Institute for Inner Studies, Inc. (IIS Inc.)</a>, Philippines.
               </p>
             </div>
 

@@ -5,15 +5,15 @@ import AboutSection from "@/components/AboutSection";
 
 const Index = () => {
   const twinHeartLinks = [
-    { title: "Introduction", url: "https://www.youtube.com/watch?v=YOUR_LINK_1" },
-    { title: "Testimonial", url: "https://www.youtube.com/watch?v=YOUR_LINK_2" },
+    { title: "Introduction to Twin Heart Meditation", url: "https://www.youtube.com/watch?v=9VdjOyjb27A&list=PLsEllhfIuEDNCb2s-Hu3e9sLeSyU6MZse&index=3" },
+    { title: "Testimonial for Twin Heart Meditation", url: "https://www.youtube.com/watch?v=SuZ8TXjSrEY" },
   ];
 
   const pranicHealingLinks = [
-    { title: "What is Pranic Healing", url: "https://www.youtube.com/watch?v=YOUR_LINK_3" },
-    { title: "Animation Video", url: "https://www.youtube.com/watch?v=YOUR_LINK_4" },
-    { title: "Why Attend a Class", url: "https://www.youtube.com/watch?v=YOUR_LINK_5" },
-    { title: "All Aspects of Life", url: "https://www.youtube.com/watch?v=YOUR_LINK_6" },
+    { title: "What is Pranic Healing", url: "https://youtu.be/hWT7Nc-Gwfg" },
+    { title: "Pranic Healing – Animation Video", url: "https://youtu.be/jtOahTuWi1Y" },
+    { title: "Why Attend a Pranic Healing Class", url: "https://www.youtube.com/watch?v=XEB6EP7Oicg&t=49s" },
+    { title: "Pranic Healing in All Aspects of Life", url: "https://www.youtube.com/watch?v=GqrqF3QZsB8" },
   ];
 
   return (
