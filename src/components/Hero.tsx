@@ -16,16 +16,16 @@ const Hero = () => {
         </div>
 
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-primary-foreground mb-4 text-balance">
-          Yoga Vidya Pranic Healing Trust
+          Overview
         </h1>
         
         <p className="text-lg md:text-xl text-primary-foreground/90 max-w-2xl mx-auto mb-2">
-          Delhi NCR
+          Twin Heart Meditation & Pranic Healing
         </p>
 
         <div className="flex items-center justify-center gap-2 text-primary-foreground/80 text-sm">
           <Sparkles className="w-4 h-4" />
-          <span>Serving the community for over 30 years</span>
+          <span>Healing body, mind & spirit</span>
           <Sparkles className="w-4 h-4" />
         </div>
       </div>

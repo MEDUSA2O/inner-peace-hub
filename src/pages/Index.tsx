@@ -61,6 +61,19 @@ const Index = () => {
                 <p>
                   Pranic Healing uses life energy (such as Sun prana, Earth prana, and Air prana) to restore health & well-being, by clearing blockages in the body's energy field (Aura) and energy centres (Chakras).
                 </p>
+                <p>
+                  Pranic Healing is not only for those who are unwell—it is for everyone. Even healthy individuals can benefit from its techniques. It offers a scientific and practical approach to improving every area of life, including:
+                </p>
+                <ul className="list-disc list-inside space-y-1 pl-2">
+                  <li>Physical and emotional health</li>
+                  <li>Happiness and inner peace</li>
+                  <li>Workplace productivity</li>
+                  <li>Relationships</li>
+                  <li>Financial well-being</li>
+                </ul>
+                <p>
+                  <strong className="text-foreground">Pranic Healing is easy to learn and simple to practice.</strong> Anyone can begin healing simple ailments in a short time.
+                </p>
               </div>
             }
             videoLinks={pranicHealingLinks}
