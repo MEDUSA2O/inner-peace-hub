@@ -72,7 +72,7 @@ const Index = () => {
                   <li>Financial well-being</li>
                 </ul>
                 <p>
-                  <strong className="text-foreground">Pranic Healing is easy to learn and simple to practice.</strong> Anyone can begin healing simple ailments in a short time.
+                  <strong className="text-foreground">Pranic Healing is easy to learn and simple to practice.</strong>
                 </p>
               </div>
             }
