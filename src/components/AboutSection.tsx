@@ -97,10 +97,10 @@ const AboutSection = () => {
                 Based out of Dr. Mukherjee Nagar, New Delhi, Arahant Pranic Healing Center envisions bringing about healings, inner calmness and peace for spiritual evolution by using the teachings and techniques of Master Choa Kok Sui.
               </p>
               <p>
-                Pranic Healing workshops, Nurturing sessions, Healing practise sessions and Meditation sessions form the foundation to achieve this vision.
+                Pranic Healing workshops, Nurturing sessions, Healing practice sessions and Meditation sessions form the foundation to achieve this vision.
               </p>
               <p>
-                We also conduct counselling sessions for physical, emotional, mental and psychological needs as also for improving businesses.
+                We also conduct counselling sessions for physical, emotional, mental and psychological needs as well as for improving businesses.
               </p>
             </div>
           </CardContent>
