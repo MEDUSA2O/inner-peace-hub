@@ -1,4 +1,4 @@
-import { Building2, Globe, ExternalLink } from "lucide-react";
+import { Building2, Globe, ExternalLink, Play, Sparkles } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const AboutSection = () => {
@@ -8,84 +8,100 @@ const AboutSection = () => {
     { name: "Institute for Inner Studies, Inc. (IIS Inc.)", url: "https://www.instituteforinnerstudies.com.ph/" },
   ];
 
+  const sectionBg = { backgroundColor: '#fffbeb' };
+  const cardBg = { backgroundColor: '#fefce8', borderColor: '#fde68a' };
+  const iconBg = { backgroundColor: '#fde68a', color: '#78350f' };
+  const linkStyle = { backgroundColor: '#fde68a', color: '#78350f' };
+
   return (
-    <section className="pt-4 md:pt-6 pb-16 gradient-section">
+    <section className="pt-8 pb-16" style={sectionBg}>
       <div className="container px-6 space-y-8">
-        {/* Organization Info */}
-        <Card className="gradient-card shadow-card border-0 overflow-hidden animate-fade-in" style={{ animationDelay: "400ms" }}>
+        {/* Yoga Vidya Pranic Healing Trust of Delhi */}
+        <Card className="shadow-lg border overflow-hidden animate-fade-in" style={{ animationDelay: "400ms", ...cardBg }}>
           <CardHeader className="pb-4">
-            <div className="w-14 h-14 rounded-2xl bg-secondary/20 flex items-center justify-center text-secondary shrink-0">
+            <div className="w-14 h-14 rounded-2xl flex items-center justify-center mb-4 shrink-0" style={iconBg}>
               <Building2 className="w-7 h-7" />
             </div>
-            <div>
-              <CardTitle className="text-2xl md:text-3xl font-serif text-foreground">
-                Yoga Vidya Pranic Healing Trust of Delhi
-              </CardTitle>
-              <div className="flex items-center gap-2 text-muted-foreground text-sm mt-1">
-                <Globe className="w-4 h-4" />
-                <span>Part of a Global Network</span>
-              </div>
+            <CardTitle className="text-2xl md:text-3xl font-serif text-stone-800">
+              Yoga Vidya Pranic Healing Trust of Delhi
+            </CardTitle>
+            <div className="flex items-center gap-2 text-stone-500 text-sm mt-1">
+              <Globe className="w-4 h-4" />
+              <span>Part of a Global Network</span>
             </div>
           </CardHeader>
           <CardContent className="space-y-6">
-            <div className="space-y-4 text-muted-foreground leading-relaxed">
+            <div className="space-y-4 text-stone-600 leading-relaxed">
               <p>
-                The <strong className="text-foreground">Yoga Vidya Pranic Healing Trust of Delhi</strong> is a non-profit organization that has been actively engaged in healing and meditation initiatives over the last 30 years in the Delhi NCR area.
+                The <strong className="text-stone-800">Yoga Vidya Pranic Healing Trust of Delhi</strong> is a non-profit organization that has been actively engaged in healing and meditation initiatives over the last 30 years in the Delhi NCR area.
               </p>
               <p>
-                Our parent organization is <strong className="text-foreground">World Pranic Healing Foundation of India (WPHFI)</strong>, which is an affiliate of WPHF-Manila with its key entity being <strong className="text-foreground">Institute for Inner Studies, Inc. (IIS Inc.)</strong>, Philippines.
+                Our parent organization is <strong className="text-stone-800">World Pranic Healing Foundation of India (WPHFI)</strong>, which is an affiliate of WPHF-Manila with its key entity being <strong className="text-stone-800">Institute for Inner Studies, Inc. (IIS Inc.)</strong>, Philippines.
               </p>
             </div>
 
-            <div className="pt-6 border-t border-border">
+            <div className="pt-6 border-t" style={{ borderColor: '#fde68a' }}>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
                 <div>
-                  <p className="text-3xl font-serif font-bold text-primary">30+</p>
-                  <p className="text-sm text-muted-foreground">Years of Service</p>
+                  <p className="text-3xl font-serif font-bold text-amber-700">30+</p>
+                  <p className="text-sm text-stone-500">Years of Service</p>
                 </div>
                 <div>
-                  <p className="text-3xl font-serif font-bold text-primary">Delhi NCR</p>
-                  <p className="text-sm text-muted-foreground">Region Covered</p>
+                  <p className="text-3xl font-serif font-bold text-amber-700">Delhi NCR</p>
+                  <p className="text-sm text-stone-500">Region Covered</p>
                 </div>
                 <div>
-                  <p className="text-3xl font-serif font-bold text-primary">Global</p>
-                  <p className="text-sm text-muted-foreground">Network Affiliation</p>
+                  <p className="text-3xl font-serif font-bold text-amber-700">Global</p>
+                  <p className="text-sm text-stone-500">Network Affiliation</p>
                 </div>
+              </div>
+            </div>
+
+            {/* Key Websites - same style as Learn More in other cards */}
+            <div className="space-y-3 pt-2">
+              <p className="text-sm font-medium text-stone-800">Key Websites</p>
+              <p className="text-sm text-stone-500">Learn more about Pranic Healing worldwide</p>
+              <div className="flex flex-wrap gap-2">
+                {keyWebsites.map((link, index) => (
+                  <a
+                    key={index}
+                    href={link.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium shadow-sm"
+                    style={linkStyle}
+                  >
+                    <Play className="w-3 h-3" />
+                    {link.name}
+                    <ExternalLink className="w-3 h-3" />
+                  </a>
+                ))}
               </div>
             </div>
           </CardContent>
         </Card>
 
-        {/* Key Websites */}
-        <Card className="gradient-card shadow-card border-0 overflow-hidden animate-fade-in" style={{ animationDelay: "500ms" }}>
-          <CardContent className="p-8 md:p-10">
-            <div className="flex items-start gap-4 mb-6">
-              <div className="w-14 h-14 rounded-2xl bg-primary/20 flex items-center justify-center text-primary shrink-0">
-                <Globe className="w-7 h-7" />
-              </div>
-              <div>
-                <h2 className="text-2xl md:text-3xl font-serif text-foreground mb-2">
-                  Key Websites
-                </h2>
-                <p className="text-muted-foreground text-sm">
-                  Learn more about Pranic Healing worldwide
-                </p>
-              </div>
+        {/* Arahant Pranic Healing Center */}
+        <Card className="shadow-lg border overflow-hidden animate-fade-in" style={{ animationDelay: "500ms", ...cardBg }}>
+          <CardHeader className="pb-4">
+            <div className="w-14 h-14 rounded-2xl flex items-center justify-center mb-4 shrink-0" style={iconBg}>
+              <Sparkles className="w-7 h-7" />
             </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              {keyWebsites.map((site, index) => (
-                <a
-                  key={index}
-                  href={site.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-3 p-4 rounded-xl bg-accent/50 hover:bg-accent transition-colors group"
-                >
-                  <ExternalLink className="w-5 h-5 text-primary shrink-0 group-hover:scale-110 transition-transform" />
-                  <span className="text-sm font-medium text-foreground">{site.name}</span>
-                </a>
-              ))}
+            <CardTitle className="text-2xl md:text-3xl font-serif text-stone-800">
+              Arahant Pranic Healing Center
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-6">
+            <div className="space-y-4 text-stone-600 leading-relaxed">
+              <p>
+                Based out of Dr. Mukherjee Nagar, New Delhi, Arahant Pranic Healing Center envisions bringing about healings, inner calmness and peace for spiritual evolution by using the teachings and techniques of Master Choa Kok Sui.
+              </p>
+              <p>
+                Pranic Healing workshops, Nurturing sessions, Healing practise sessions and Meditation sessions form the foundation to achieve this vision.
+              </p>
+              <p>
+                We also conduct counselling sessions for physical, emotional, mental and psychological needs as also for improving businesses.
+              </p>
             </div>
           </CardContent>
         </Card>
