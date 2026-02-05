@@ -1,5 +1,5 @@
 import { Building2, Globe, ExternalLink } from "lucide-react";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const AboutSection = () => {
   const keyWebsites = [
@@ -9,26 +9,25 @@ const AboutSection = () => {
   ];
 
   return (
-    <section className="py-16 gradient-section">
+    <section className="pt-4 md:pt-6 pb-16 gradient-section">
       <div className="container px-6 space-y-8">
         {/* Organization Info */}
         <Card className="gradient-card shadow-card border-0 overflow-hidden animate-fade-in" style={{ animationDelay: "400ms" }}>
-          <CardContent className="p-8 md:p-10">
-            <div className="flex items-start gap-4 mb-6">
-              <div className="w-14 h-14 rounded-2xl bg-secondary/20 flex items-center justify-center text-secondary shrink-0">
-                <Building2 className="w-7 h-7" />
-              </div>
-              <div>
-                <h2 className="text-2xl md:text-3xl font-serif text-foreground mb-2">
-                  Yoga Vidya Pranic Healing Trust of Delhi
-                </h2>
-                <div className="flex items-center gap-2 text-muted-foreground text-sm">
-                  <Globe className="w-4 h-4" />
-                  <span>Part of a Global Network</span>
-                </div>
+          <CardHeader className="pb-4">
+            <div className="w-14 h-14 rounded-2xl bg-secondary/20 flex items-center justify-center text-secondary shrink-0">
+              <Building2 className="w-7 h-7" />
+            </div>
+            <div>
+              <CardTitle className="text-2xl md:text-3xl font-serif text-foreground">
+                Yoga Vidya Pranic Healing Trust of Delhi
+              </CardTitle>
+              <div className="flex items-center gap-2 text-muted-foreground text-sm mt-1">
+                <Globe className="w-4 h-4" />
+                <span>Part of a Global Network</span>
               </div>
             </div>
-
+          </CardHeader>
+          <CardContent className="space-y-6">
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
                 The <strong className="text-foreground">Yoga Vidya Pranic Healing Trust of Delhi</strong> is a non-profit organization that has been actively engaged in healing and meditation initiatives over the last 30 years in the Delhi NCR area.
@@ -38,7 +37,7 @@ const AboutSection = () => {
               </p>
             </div>
 
-            <div className="mt-8 pt-6 border-t border-border">
+            <div className="pt-6 border-t border-border">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
                 <div>
                   <p className="text-3xl font-serif font-bold text-primary">30+</p>

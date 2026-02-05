@@ -20,7 +20,7 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <Hero />
 
-      <main className="py-12 md:py-16">
+      <main className="pt-12 md:pt-16 pb-4 md:pb-6">
         <div className="container px-6 space-y-8">
           {/* Twin Heart Meditation */}
           <SectionCard
