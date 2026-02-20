@@ -32,10 +32,6 @@ const SectionCard = ({ icon, title, description, videoLinks, delay = 0 }: Sectio
         </CardTitle>
       </CardHeader>
       <CardContent className="space-y-6">
-        <div className="text-stone-600 leading-relaxed">
-          {description}
-        </div>
-
         {videoLinks && videoLinks.length > 0 && (
           <div className="space-y-3">
             <p className="text-sm font-medium text-stone-800">Watch Videos:</p>
@@ -57,6 +53,10 @@ const SectionCard = ({ icon, title, description, videoLinks, delay = 0 }: Sectio
             </div>
           </div>
         )}
+
+        <div className="text-stone-600 leading-relaxed">
+          {description}
+        </div>
       </CardContent>
     </Card>
   );
