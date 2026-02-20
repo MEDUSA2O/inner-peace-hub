@@ -146,7 +146,7 @@ const AboutSection = () => {
               <div className="pt-4">
                 <p className="text-sm font-medium text-stone-800 mb-2">Location:</p>
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.7658873418655!2d77.18654!3d28.523913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce4c00000000d%3A0x5c5c5c5c5c5c5c5c!2sQutab%20Institutional%20Area%2C%20New%20Delhi%20110016!5e0!3m2!1sen!2sin!4v1707123456789"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.7658873418655!2d77.18654!3d28.523913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce4c1a1a1a1a1%3A0x1a1a1a1a1a1a1a1a!2sEdenpark%20Hotel%2C%20New%20Delhi!5e0!3m2!1sen!2sin!4v1707123456789"
                   width="100%"
                   height="300"
                   style={{ border: 0, borderRadius: '8px' }}
