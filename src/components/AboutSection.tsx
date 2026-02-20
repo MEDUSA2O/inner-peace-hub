@@ -145,15 +145,20 @@ const AboutSection = () => {
               {/* Google Map */}
               <div className="pt-4">
                 <p className="text-sm font-medium text-stone-800 mb-2">Location:</p>
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.7526234567890!2d77.1875!3d28.52391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce4d1d1d1d1d1%3A0x8c8c8c8c8c8c8c8c!2sD6%20Edenpark%20Hotels%2C%20Qutub%20Hotel%20Apartments%2C%20Shaheed%20Jeet%20Singh%20Marg%2C%20Katwaria%20Sarai%2C%20New%20Delhi%20110016!5e0!3m2!1sen!2sin!4v1707123456789"
-                  width="100%"
-                  height="300"
-                  style={{ border: 0, borderRadius: '8px' }}
-                  allowFullScreen=""
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                />
+                <a
+                  href="https://www.google.com/maps/search/D6,+Edenpark+Hotels,+Qutub+Hotel+Apartments,+Shaheed+Jeet+Singh+Marg,+Katwaria+Sarai,+New+Delhi+110016"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium"
+                  style={{ backgroundColor: '#fde68a', color: '#78350f' }}
+                >
+                  <Play className="w-4 h-4" />
+                  View on Google Maps
+                  <ExternalLink className="w-4 h-4" />
+                </a>
+                <p className="text-xs text-stone-500 mt-2">
+                  Click to open the location in Google Maps
+                </p>
               </div>
             </div>
           </CardContent>
