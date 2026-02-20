@@ -50,6 +50,20 @@ const AboutSection = () => {
                 <p className="text-sm text-stone-600">+91 9971836403</p>
                 <p className="text-sm text-stone-600">+91 8317448751</p>
               </div>
+
+              {/* Google Map */}
+              <div className="pt-4">
+                <p className="text-sm font-medium text-stone-800 mb-2">Location:</p>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.8674397445676!2d77.21844!3d28.54916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce37c8c8c8c8d%3A0x8c8c8c8c8c8c8c8c!2sHouse%20No.%20267%2C%20Dr%20Mukherjee%20Nagar%2C%20New%20Delhi%20110009!5e0!3m2!1sen!2sin!4v1676543210123"
+                  width="100%"
+                  height="300"
+                  style={{ border: 0, borderRadius: '8px' }}
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                />
+              </div>
             </div>
           </CardContent>
         </Card>
@@ -126,6 +140,20 @@ const AboutSection = () => {
                 <p className="text-sm font-medium text-stone-800 mb-2">Contact:</p>
                 <p className="text-sm text-stone-600">Mobile: +91 87997 22460</p>
                 <p className="text-sm text-stone-600">Email: yvphtdelhi@pranichealing.co.in</p>
+              </div>
+
+              {/* Google Map */}
+              <div className="pt-4">
+                <p className="text-sm font-medium text-stone-800 mb-2">Location:</p>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.8674397445676!2d77.18755!3d28.52391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce4c8c8c8c8c8%3A0x8c8c8c8c8c8c8c8c!2sEdenpark%20Hotels%2C%20Qutub%20Hotel%20Apartments%2C%20Shaheed%20Jeet%20Singh%20Marg%2C%20New%20Delhi%20110016!5e0!3m2!1sen!2sin!4v1676543210123"
+                  width="100%"
+                  height="300"
+                  style={{ border: 0, borderRadius: '8px' }}
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                />
               </div>
             </div>
           </CardContent>
