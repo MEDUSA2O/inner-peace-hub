@@ -16,14 +16,52 @@ const AboutSection = () => {
   return (
     <section className="pt-8 pb-16" style={sectionBg}>
       <div className="container px-6 space-y-8">
-        {/* Yoga Vidya Pranic Healing Trust of Delhi */}
+        {/* Arahant Pranic Healing Center */}
         <Card className="shadow-lg border overflow-hidden animate-fade-in" style={{ animationDelay: "400ms", ...cardBg }}>
+          <CardHeader className="pb-4">
+            <div className="w-14 h-14 rounded-2xl flex items-center justify-center mb-4 shrink-0" style={iconBg}>
+              <Sparkles className="w-7 h-7" />
+            </div>
+            <CardTitle className="text-2xl md:text-3xl font-serif text-stone-800">
+              ARAHANT
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-6">
+            <div className="space-y-4 text-stone-600 leading-relaxed">
+              <p>
+                Based out of Dr. Mukherjee Nagar, New Delhi, Arahant Pranic Healing Center envisions bringing about healings, inner calmness and peace for spiritual evolution by using the teachings and techniques of Master Choa Kok Sui.
+              </p>
+              <p>
+                Pranic Healing workshops, Nurturing sessions, Healing practice sessions and Meditation sessions form the foundation to achieve this vision.
+              </p>
+              <p>
+                We also conduct counselling sessions for physical, emotional, mental and psychological needs as well as for improving businesses.
+              </p>
+            </div>
+
+            {/* Contact Information */}
+            <div className="pt-6 border-t space-y-4" style={{ borderColor: '#fde68a' }}>
+              <div>
+                <p className="text-sm font-medium text-stone-800 mb-2">Address:</p>
+                <p className="text-sm text-stone-600">House No. 267, Dr Mukherjee Nagar, New Delhi 110009</p>
+              </div>
+              <div>
+                <p className="text-sm font-medium text-stone-800 mb-2">Contact:</p>
+                <p className="text-sm text-stone-600">+91 9971836403</p>
+                <p className="text-sm text-stone-600">+91 8317448751</p>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+
+        {/* Yoga Vidya Pranic Healing Trust of Delhi (PHTD) */}
+        <Card className="shadow-lg border overflow-hidden animate-fade-in" style={{ animationDelay: "500ms", ...cardBg }}>
           <CardHeader className="pb-4">
             <div className="w-14 h-14 rounded-2xl flex items-center justify-center mb-4 shrink-0" style={iconBg}>
               <Building2 className="w-7 h-7" />
             </div>
             <CardTitle className="text-2xl md:text-3xl font-serif text-stone-800">
-              Yoga Vidya Pranic Healing Trust of Delhi
+              Yoga Vidya Pranic Healing Trust of Delhi (PHTD)
             </CardTitle>
             <div className="flex items-center gap-2 text-stone-500 text-sm mt-1">
               <Globe className="w-4 h-4" />
@@ -57,7 +95,16 @@ const AboutSection = () => {
               </div>
             </div>
 
-            {/* Key Websites - same style as Learn More in other cards */}
+            {/* Contact Information */}
+            <div className="pt-6 border-t space-y-4" style={{ borderColor: '#fde68a' }}>
+              <div>
+                <p className="text-sm font-medium text-stone-800 mb-2">Contact:</p>
+                <p className="text-sm text-stone-600">Mobile: +91 87997 22460</p>
+                <p className="text-sm text-stone-600">Email: yvphtdelhi@pranichealing.co.in</p>
+              </div>
+            </div>
+
+            {/* Key Websites - same style as Watch Videos in other cards */}
             <div className="space-y-3 pt-2">
               <p className="text-sm font-medium text-stone-800">Key Websites</p>
               <p className="text-sm text-stone-500">Learn more about Pranic Healing worldwide</p>
@@ -77,31 +124,6 @@ const AboutSection = () => {
                   </a>
                 ))}
               </div>
-            </div>
-          </CardContent>
-        </Card>
-
-        {/* Arahant Pranic Healing Center */}
-        <Card className="shadow-lg border overflow-hidden animate-fade-in" style={{ animationDelay: "500ms", ...cardBg }}>
-          <CardHeader className="pb-4">
-            <div className="w-14 h-14 rounded-2xl flex items-center justify-center mb-4 shrink-0" style={iconBg}>
-              <Sparkles className="w-7 h-7" />
-            </div>
-            <CardTitle className="text-2xl md:text-3xl font-serif text-stone-800">
-              Arahant Pranic Healing Center
-            </CardTitle>
-          </CardHeader>
-          <CardContent className="space-y-6">
-            <div className="space-y-4 text-stone-600 leading-relaxed">
-              <p>
-                Based out of Dr. Mukherjee Nagar, New Delhi, Arahant Pranic Healing Center envisions bringing about healings, inner calmness and peace for spiritual evolution by using the teachings and techniques of Master Choa Kok Sui.
-              </p>
-              <p>
-                Pranic Healing workshops, Nurturing sessions, Healing practice sessions and Meditation sessions form the foundation to achieve this vision.
-              </p>
-              <p>
-                We also conduct counselling sessions for physical, emotional, mental and psychological needs as well as for improving businesses.
-              </p>
             </div>
           </CardContent>
         </Card>

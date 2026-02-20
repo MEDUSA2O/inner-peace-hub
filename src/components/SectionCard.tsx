@@ -38,7 +38,7 @@ const SectionCard = ({ icon, title, description, videoLinks, delay = 0 }: Sectio
 
         {videoLinks && videoLinks.length > 0 && (
           <div className="space-y-3">
-            <p className="text-sm font-medium text-stone-800">Learn More:</p>
+            <p className="text-sm font-medium text-stone-800">Watch Videos:</p>
             <div className="flex flex-wrap gap-2">
               {videoLinks.map((link, index) => (
                 <a
