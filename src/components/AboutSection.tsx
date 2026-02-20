@@ -1,4 +1,4 @@
-import { Building2, Globe, ExternalLink, Play, Sparkles } from "lucide-react";
+import { Building2, Globe, ExternalLink, Play, Sparkles, BookOpen } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const AboutSection = () => {
@@ -16,8 +16,112 @@ const AboutSection = () => {
   return (
     <section className="pt-8 pb-16" style={sectionBg}>
       <div className="container px-6 space-y-8">
-        {/* Arahant Pranic Healing Center */}
+        {/* Research */}
+        <Card className="shadow-lg border overflow-hidden animate-fade-in" style={{ animationDelay: "300ms", ...cardBg }}>
+          <CardHeader className="pb-4">
+            <div className="w-14 h-14 rounded-2xl flex items-center justify-center mb-4 shrink-0" style={iconBg}>
+              <BookOpen className="w-7 h-7" />
+            </div>
+            <CardTitle className="text-2xl md:text-3xl font-serif text-stone-800">
+              Research
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-6">
+            {/* Research Articles & Publications */}
+            <div className="space-y-3">
+              <p className="text-sm font-medium text-stone-800"><strong>Research Articles & Publications</strong></p>
+              <div className="flex flex-wrap gap-2">
+                <a
+                  href="https://www.worldpranichealing.com/magazine/research"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium shadow-sm"
+                  style={linkStyle}
+                >
+                  <Play className="w-3 h-3" />
+                  View Research Articles
+                  <ExternalLink className="w-3 h-3" />
+                </a>
+                <a
+                  href="https://drive.google.com/file/d/1OamVKeZzP4hnw5Pn_ChzIIX1bb-BcPLr/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium shadow-sm"
+                  style={linkStyle}
+                >
+                  <Play className="w-3 h-3" />
+                  Meditation on Twin Heart Research Findings
+                  <ExternalLink className="w-3 h-3" />
+                </a>
+                <a
+                  href="https://www.instagram.com/reel/CwGFRHVJjfB/?igsh=aWN3dW01dmsyc2Y0&wa_logging_event=video_play_open"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium shadow-sm"
+                  style={linkStyle}
+                >
+                  <Play className="w-3 h-3" />
+                  Pranic Healing Complementary to Medical Science
+                  <ExternalLink className="w-3 h-3" />
+                </a>
+              </div>
+            </div>
+
+            <div className="space-y-4 text-stone-600 leading-relaxed">
+              <p>
+                The <strong className="text-stone-800">World Pranic Healing Foundation, India</strong> has published scientific articles about Pranic Healing in both national and international journals. The Research Centre is dedicated to scholarly investigations into these practices and their impact on physical, emotional, and social well-being.
+              </p>
+              <p>
+                The health benefits of Pranic Healing, as taught by Master Choa Kok Sui, are being confirmed by modern science. The foundation encourages collaboration and welcomes suggestions for further research from interested individuals.
+              </p>
+            </div>
+          </CardContent>
+        </Card>
+
+        {/* Other Initiatives */}
         <Card className="shadow-lg border overflow-hidden animate-fade-in" style={{ animationDelay: "400ms", ...cardBg }}>
+          <CardHeader className="pb-4">
+            <div className="w-14 h-14 rounded-2xl flex items-center justify-center mb-4 shrink-0" style={iconBg}>
+              <Sparkles className="w-7 h-7" />
+            </div>
+            <CardTitle className="text-2xl md:text-3xl font-serif text-stone-800">
+              Other Initiatives
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-6">
+            {/* Initiative Links */}
+            <div className="space-y-3">
+              <p className="text-sm font-medium text-stone-800"><strong>Programs & Documents:</strong></p>
+              <div className="flex flex-wrap gap-2">
+                <a
+                  href="https://drive.google.com/file/d/18VoM9HceNU77t91JpvqV6Q4785tRsP3z/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium shadow-sm"
+                  style={linkStyle}
+                >
+                  <Play className="w-3 h-3" />
+                  Food For Hungry
+                  <ExternalLink className="w-3 h-3" />
+                </a>
+                <a
+                  href="https://drive.google.com/file/d/1ZQDcq8usa6trAu_DrYb0RwdCLGnS3eYh/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium shadow-sm"
+                  style={linkStyle}
+                >
+                  <Play className="w-3 h-3" />
+                  MCKS-SAATHIYA Integrated Career Development Program
+                  <ExternalLink className="w-3 h-3" />
+                </a>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+
+        {/* Arahant Pranic Healing Center */}
+        <Card className="shadow-lg border overflow-hidden animate-fade-in" style={{ animationDelay: "500ms", ...cardBg }}>
           <CardHeader className="pb-4">
             <div className="w-14 h-14 rounded-2xl flex items-center justify-center mb-4 shrink-0" style={iconBg}>
               <Sparkles className="w-7 h-7" />
@@ -69,7 +173,7 @@ const AboutSection = () => {
         </Card>
 
         {/* Yoga Vidya Pranic Healing Trust of Delhi (PHTD) */}
-        <Card className="shadow-lg border overflow-hidden animate-fade-in" style={{ animationDelay: "500ms", ...cardBg }}>
+        <Card className="shadow-lg border overflow-hidden animate-fade-in" style={{ animationDelay: "700ms", ...cardBg }}>
           <CardHeader className="pb-4">
             <div className="w-14 h-14 rounded-2xl flex items-center justify-center mb-4 shrink-0" style={iconBg}>
               <Building2 className="w-7 h-7" />

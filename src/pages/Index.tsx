@@ -10,6 +10,7 @@ const Index = () => {
   ];
 
   const pranicHealingLinks = [
+    { title: "Introduction to Pranic Healing", url: "https://www.youtube.com/watch?v=olZhUc3WgCI&feature=youtu.be" },
     { title: "What is Pranic Healing", url: "https://youtu.be/hWT7Nc-Gwfg" },
     { title: "Pranic Healing – Animation Video", url: "https://youtu.be/jtOahTuWi1Y" },
     { title: "Why Attend a Pranic Healing Class", url: "https://www.youtube.com/watch?v=XEB6EP7Oicg&t=49s" },
