@@ -95,19 +95,9 @@ const AboutSection = () => {
               </div>
             </div>
 
-            {/* Contact Information */}
-            <div className="pt-6 border-t space-y-4" style={{ borderColor: '#fde68a' }}>
-              <div>
-                <p className="text-sm font-medium text-stone-800 mb-2">Contact:</p>
-                <p className="text-sm text-stone-600">Mobile: +91 87997 22460</p>
-                <p className="text-sm text-stone-600">Email: yvphtdelhi@pranichealing.co.in</p>
-              </div>
-            </div>
-
             {/* Key Websites - same style as Watch Videos in other cards */}
-            <div className="space-y-3 pt-2">
+            <div className="space-y-3">
               <p className="text-sm font-medium text-stone-800">Key Websites</p>
-              <p className="text-sm text-stone-500">Learn more about Pranic Healing worldwide</p>
               <div className="flex flex-wrap gap-2">
                 {keyWebsites.map((link, index) => (
                   <a
@@ -123,6 +113,19 @@ const AboutSection = () => {
                     <ExternalLink className="w-3 h-3" />
                   </a>
                 ))}
+              </div>
+            </div>
+
+            {/* Contact Information */}
+            <div className="pt-6 border-t space-y-4" style={{ borderColor: '#fde68a' }}>
+              <div>
+                <p className="text-sm font-medium text-stone-800 mb-2">Address:</p>
+                <p className="text-sm text-stone-600">D6, Edenpark Hotels, Qutub Hotel Apartments, Shaheed Jeet Singh Marg, near Katwaria Sarai, near Adhchini, Block C, Qutab Institutional Area, New Delhi, Delhi 110016</p>
+              </div>
+              <div>
+                <p className="text-sm font-medium text-stone-800 mb-2">Contact:</p>
+                <p className="text-sm text-stone-600">Mobile: +91 87997 22460</p>
+                <p className="text-sm text-stone-600">Email: yvphtdelhi@pranichealing.co.in</p>
               </div>
             </div>
           </CardContent>
