@@ -63,7 +63,7 @@ const AboutSection = () => {
               <Sparkles className="w-7 h-7" />
             </div>
             <CardTitle className="text-2xl md:text-3xl font-serif text-stone-800">
-              MCKS food for hungry
+              Other Initiatives
             </CardTitle>
           </CardHeader>
           <CardContent className="space-y-6">
