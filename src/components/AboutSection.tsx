@@ -42,28 +42,6 @@ const AboutSection = () => {
                   View Research Articles
                   <ExternalLink className="w-3 h-3" />
                 </a>
-                <a
-                  href="https://drive.google.com/file/d/1OamVKeZzP4hnw5Pn_ChzIIX1bb-BcPLr/view?usp=sharing"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium shadow-sm"
-                  style={linkStyle}
-                >
-                  <Play className="w-3 h-3" />
-                  Meditation on Twin Heart Research Findings
-                  <ExternalLink className="w-3 h-3" />
-                </a>
-                <a
-                  href="https://www.instagram.com/reel/CwGFRHVJjfB/?igsh=aWN3dW01dmsyc2Y0&wa_logging_event=video_play_open"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium shadow-sm"
-                  style={linkStyle}
-                >
-                  <Play className="w-3 h-3" />
-                  Pranic Healing Complementary to Medical Science
-                  <ExternalLink className="w-3 h-3" />
-                </a>
               </div>
             </div>
 
@@ -85,7 +63,7 @@ const AboutSection = () => {
               <Sparkles className="w-7 h-7" />
             </div>
             <CardTitle className="text-2xl md:text-3xl font-serif text-stone-800">
-              Other Initiatives
+              MCKS food for hungry
             </CardTitle>
           </CardHeader>
           <CardContent className="space-y-6">
@@ -127,7 +105,7 @@ const AboutSection = () => {
               <Sparkles className="w-7 h-7" />
             </div>
             <CardTitle className="text-2xl md:text-3xl font-serif text-stone-800">
-              ARAHANT
+              Arahant Pranic Healing Centre
             </CardTitle>
           </CardHeader>
           <CardContent className="space-y-6">
@@ -147,7 +125,7 @@ const AboutSection = () => {
             <div className="pt-6 border-t space-y-4" style={{ borderColor: '#fde68a' }}>
               <div>
                 <p className="text-sm font-medium text-stone-800 mb-2">Address:</p>
-                <p className="text-sm text-stone-600">House No. 267, Dr Mukherjee Nagar, New Delhi 110009</p>
+                <p className="text-sm text-stone-600">2nd Floor, House No. 267, Dr Mukherjee Nagar, New Delhi 110009</p>
               </div>
               <div>
                 <p className="text-sm font-medium text-stone-800 mb-2">Contact:</p>

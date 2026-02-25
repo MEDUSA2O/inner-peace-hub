@@ -15,6 +15,7 @@ const Index = () => {
     { title: "Pranic Healing – Animation Video", url: "https://youtu.be/jtOahTuWi1Y" },
     { title: "Why Attend a Pranic Healing Class", url: "https://www.youtube.com/watch?v=XEB6EP7Oicg&t=49s" },
     { title: "Pranic Healing in All Aspects of Life", url: "https://www.youtube.com/watch?v=GqrqF3QZsB8" },
+    { title: "Pranic Healing Complementary to Medical Science", url: "https://www.instagram.com/reel/CwGFRHVJjfB/?igsh=aWN3dW01dmsyc2Y0&wa_logging_event=video_play_open" },
   ];
 
   const yellowBg = { backgroundColor: '#fffbeb' };
