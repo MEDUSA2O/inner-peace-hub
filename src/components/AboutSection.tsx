@@ -79,7 +79,7 @@ const AboutSection = () => {
                   style={linkStyle}
                 >
                   <Play className="w-3 h-3" />
-                  Food For Hungry
+                  MCKS food for hungry
                   <ExternalLink className="w-3 h-3" />
                 </a>
                 <a
